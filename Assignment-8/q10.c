@@ -18,16 +18,14 @@ for(i=1;i<=n;i++){
 
             else
             {
-
                 k++;
                 printf("%d ",k);
             }
-
-        }
+       }
 
         else
         {
-            j>=n+1?k--:k++;
+           j>=n+1?k--:k++;
             printf("  ");
         }
     }
